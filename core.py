@@ -2,7 +2,7 @@ import api
 import telebot
 import threading
 
-bot = telebot.TeleBot("TOKEN)
+bot = telebot.TeleBot("TOKEN")
 
 
 
