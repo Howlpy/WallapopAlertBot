@@ -2,7 +2,7 @@ import api
 import telebot
 import threading
 
-bot = telebot.TeleBot("1614218850:AAGTVzKOqEpZm0ow0upXJuOrJ3K15AcAgmg")
+bot = telebot.TeleBot("TOKEN)
 
 
 
