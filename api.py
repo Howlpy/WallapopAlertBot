@@ -22,9 +22,12 @@ def basicSearch(keyword,price):
     responses = remove_duplicates(responses)
     for res in responses:
         for i in res['search_objects']:
-            title = i['title']
-            cost = i['price']
-            products.append([title,cost])
+            if keyword not in i['title'] or i['price'] == 0:
+                pass
+            else:
+                title = i['title']
+                cost = i['price']
+                products.append([title,cost])
     return products
 
 
